@@ -15,12 +15,12 @@ proxies:
     public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
     short-id: d0ea1847066af5a6
   servername: www.samsung.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 167.82.0.1
+  server: psf-2.weedly.top
   port: 80
   udp: true
   type: vless

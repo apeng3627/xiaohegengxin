@@ -14,7 +14,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -30,7 +30,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "167.82.0.1",
+      "server": "psf-2.weedly.top",
       "server_port": 80,
       "uuid": "33016f3d-8509-493c-bd8b-d26447d48135",
       "transport": {
