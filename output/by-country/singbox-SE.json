@@ -5,43 +5,43 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-      "server": "103.172.197.3",
-      "server_port": 16006,
-      "uuid": "f8c9d2a1-da40-4f90-b671-11772a0b13d6",
+      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+      "server": "sw.golangwikito.cfd",
+      "server_port": 443,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "sw.golangwikito.cfd",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU",
-          "short_id": ""
+          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
+          "short_id": "a1037b25dcef6aa7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-      "server": "154.21.203.106",
-      "server_port": 46984,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
+      "server": "2.26.55.163",
+      "server_port": 443,
+      "uuid": "621bcb9e-7df5-427b-a9d4-6e87223c8bca",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.lamer.com.sg",
+        "server_name": "specific3.kandnet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-          "short_id": "9c3c0f8ec8b4af12"
+          "public_key": "0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw",
+          "short_id": ""
         }
       }
     },
@@ -50,16 +50,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
