@@ -4,22 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-      "server": "104.21.23.80",
-      "server_port": 443,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "my.lovehk.xyz",
-        "insecure": false
-      },
+      "type": "vless",
+      "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe",
+      "server": "178.172.227.124",
+      "server_port": 14430,
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
       "transport": {
         "type": "ws",
-        "path": "/KualaLumpur1",
+        "path": "/vless",
         "headers": {
-          "Host": "my.lovehk.xyz"
+          "Host": "178.172.227.124"
         }
       }
     },
@@ -28,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
