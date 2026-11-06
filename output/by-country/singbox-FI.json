@@ -20,7 +20,7 @@
     {
       "type": "trojan",
       "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-      "server": "172.66.0.1",
+      "server": "188.114.96.3",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "tls": {
@@ -44,12 +44,46 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "77fb7a80-4724-4e33-9558-4f20c1634c5a",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
+      "server": "84.38.184.87",
+      "server_port": 2089,
+      "uuid": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.storage.selcloud.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TGbaO5ocPEkI3J1M7y_TPvZheJa-N_rL7GSiluX-XB8",
+          "short_id": "37103087"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "cas-fi"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 02 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
       ]
     },
     {
@@ -57,7 +91,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 02 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
