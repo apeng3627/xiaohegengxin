@@ -5,21 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.161.144
+  server: n04.jinggai.online
   port: 8443
   udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: n04.jinggai.online
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
+    path: /nvl-n04-ws/e0577fe8fd7c8823
 proxy-groups:
 - name: PROXIES
   type: select
