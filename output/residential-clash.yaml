@@ -19,14 +19,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇸🇬 新加坡 (Singapore) 03 (家宽) - xiaohe
-  server: 116.88.224.217
-  port: 8080
-  udp: true
-  type: vmess
-  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -34,7 +26,6 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42,6 +33,5 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
